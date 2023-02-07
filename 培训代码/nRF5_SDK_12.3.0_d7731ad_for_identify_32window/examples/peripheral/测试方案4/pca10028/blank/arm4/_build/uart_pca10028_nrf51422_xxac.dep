@@ -1,0 +1,498 @@
+Dependencies for Project 'uart_pca10028', Target 'nrf51422_xxac': (DO NOT MODIFY !)
+F (..\..\..\main.c)(0x5B94FC90)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpiote.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_peripherals.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf51422_peripherals.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\drivers_nrf\rtc\nrf_drv_rtc.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_rtc.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\clock\nrf_drv_clock.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_clock.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\bsp\bsp.h)(0x590C176E)
+I (..\..\..\..\..\..\components\boards\boards.h)(0x590C176E)
+I (..\..\..\..\..\..\components\boards\pca10028.h)(0x5B94D151)
+F (..\config\sdk_config.h)(0x5B66DC5D)()
+F (..\..\..\..\..\..\components\boards\boards.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\boards.o --omf_browse .\_build\boards.crf --depend .\_build\boards.d)
+I (..\..\..\..\..\..\components\boards\boards.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_peripherals.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf51422_peripherals.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\boards\pca10028.h)(0x5B94D151)
+F (..\..\..\..\..\..\components\toolchain\arm\arm_startup_nrf51.s)(0x590C095A)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config  --cpreproc_opts=-DNRF51422,-DBOARD_PCA10028,-DBSP_DEFINES_ONLY,-DNRF51-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include--pd "NRF51 SETA 1" --pd "NRF51422 SETA 1" --pd "BOARD_PCA10028 SETA 1" --pd "BSP_DEFINES_ONLY SETA 1" --pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (..\..\..\..\..\..\components\toolchain\system_nrf51.c)(0x590C095A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+F (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_drv_common.o --omf_browse .\_build\nrf_drv_common.crf --depend .\_build\nrf_drv_common.d)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_peripherals.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf51422_peripherals.h)(0x590C095A)
+F (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_drv_uart.o --omf_browse .\_build\nrf_drv_uart.crf --depend .\_build\nrf_drv_uart.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_uart.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_peripherals.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf51422_peripherals.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_internal.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log_ctrl.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_ctrl_internal.h)(0x590C176E)
+F (..\..\..\..\..\..\components\drivers_nrf\gpiote\nrf_drv_gpiote.c)(0x5B790FA6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_drv_gpiote.o --omf_browse .\_build\nrf_drv_gpiote.crf --depend .\_build\nrf_drv_gpiote.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+F (..\..\..\..\..\..\components\drivers_nrf\rtc\nrf_drv_rtc.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_drv_rtc.o --omf_browse .\_build\nrf_drv_rtc.crf --depend .\_build\nrf_drv_rtc.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\rtc\nrf_drv_rtc.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_rtc.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_peripherals.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf51422_peripherals.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_internal.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log_ctrl.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_ctrl_internal.h)(0x590C176E)
+F (..\..\..\..\..\..\components\drivers_nrf\clock\nrf_drv_clock.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_drv_clock.o --omf_browse .\_build\nrf_drv_clock.crf --depend .\_build\nrf_drv_clock.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\clock\nrf_drv_clock.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_clock.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_internal.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log_ctrl.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_ctrl_internal.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\util\app_error.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\app_error.o --omf_browse .\_build\app_error.crf --depend .\_build\app_error.d)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_internal.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log_ctrl.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_ctrl_internal.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\util\app_error_weak.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\app_error_weak.o --omf_browse .\_build\app_error_weak.crf --depend .\_build\app_error_weak.d)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_internal.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\nrf_log_ctrl.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\log\src\nrf_log_ctrl_internal.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\fifo\app_fifo.c)(0x5B8222E7)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\app_fifo.o --omf_browse .\_build\app_fifo.crf --depend .\_build\app_fifo.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\fifo\app_fifo.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+F (..\..\..\..\..\..\components\libraries\uart\app_uart_fifo.c)(0x5B84070F)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\app_uart_fifo_1.o --omf_browse .\_build\app_uart_fifo_1.crf --depend .\_build\app_uart_fifo_1.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\fifo\app_fifo.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_uart.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_peripherals.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf51422_peripherals.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stddef.h)(0x54199D7A)
+F (..\..\..\..\..\..\components\libraries\util\app_util_platform.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\app_util_platform.o --omf_browse .\_build\app_util_platform.crf --depend .\_build\app_util_platform.d)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\util\nrf_assert.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_assert.o --omf_browse .\_build\nrf_assert.crf --depend .\_build\nrf_assert.d)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\uart\retarget.c)(0x5B6A5E53)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\retarget.o --omf_browse .\_build\retarget.crf --depend .\_build\retarget.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\uart\app_uart.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\util\sdk_errors.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\sdk_errors.o --omf_browse .\_build\sdk_errors.crf --depend .\_build\sdk_errors.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\log\src\nrf_log_backend_serial.c)(0x5B83A870)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_log_backend_serial.o --omf_browse .\_build\nrf_log_backend_serial.crf --depend .\_build\nrf_log_backend_serial.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+F (..\..\..\..\..\..\components\libraries\log\src\nrf_log_frontend.c)(0x590C176E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\nrf_log_frontend.o --omf_browse .\_build\nrf_log_frontend.crf --depend .\_build\nrf_log_frontend.d)
+I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x590C176E)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\sdk_macros.h)(0x590C176E)
+F (..\..\..\..\..\..\external\segger_rtt\RTT_Syscalls_KEIL.c)(0x590C094A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\rtt_syscalls_keil.o --omf_browse .\_build\rtt_syscalls_keil.crf --depend .\_build\rtt_syscalls_keil.d)
+F (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.c)(0x590C094A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\segger_rtt.o --omf_browse .\_build\segger_rtt.crf --depend .\_build\segger_rtt.d)
+I (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.h)(0x590C094A)
+I (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_Conf.h)(0x590C094A)
+I (..\config\sdk_config.h)(0x5B66DC5D)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x590C095A)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cm0.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (D:\ARM_KEIL\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x590C095A)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x590C095A)
+I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (D:\ARM_KEIL\ARM\ARMCC\include\stdbool.h)(0x54199D7C)
+I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x590C176E)
+I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x590C176E)
+I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x590C176E)
+I (D:\ARM_KEIL\ARM\ARMCC\include\string.h)(0x54199D7C)
+F (..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_printf.c)(0x590C094A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\config\uart_pca10028 -I..\..\..\config -I..\..\..\..\..\..\components -I..\..\..\..\..\..\components\boards -I..\..\..\..\..\..\components\device -I..\..\..\..\..\..\components\drivers_nrf\common -I..\..\..\..\..\..\components\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I..\..\..\..\..\..\components\drivers_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I..\..\..\..\..\..\components\drivers_nrf\rtc -I..\..\..\..\..\..\components\libraries\bsp -I..\..\..\..\..\..\components\libraries\fifo -I..\..\..\..\..\..\components\libraries\log -I..\..\..\..\..\..\components\libraries\log\src -I..\..\..\..\..\..\components\libraries\uart -I..\..\..\..\..\..\components\libraries\util -I..\..\..\..\..\..\components\toolchain -I..\..\.. -I..\..\..\..\..\..\external\segger_rtt -I..\config --c99-I D:\ARM_KEIL\ARM\RV31\INC-I D:\ARM_KEIL\ARM\CMSIS\Include-DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DNRF51-o .\_build\segger_rtt_printf.o --omf_browse .\_build\segger_rtt_printf.crf --depend .\_build\segger_rtt_printf.d)

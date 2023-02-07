@@ -1,0 +1,64 @@
+/* .box{ width: 100px; height: 100px; background:red;}
+.boxHover{ background:green;}
+
+.item{ width: 50px;height: 50px;background:gold;}
+.itemHover{background: hotpink;} */
+/* .login{
+  width: 25px;
+  height: 35px;
+  float: left;
+}
+.logout{
+  width: 25px;
+  height: 35px;
+  float: left;
+}
+
+.send{
+  width: 25px;
+  height: 35px;
+  float: left;
+} */
+page{
+  height:100%
+}
+.imagesize{
+  display: flex;
+  height: 580rpx;
+  justify-content: center; 
+  align-items:center;
+}
+
+
+.Sensor0{
+  background-color: #fff;
+  border-radius:0;
+}
+
+
+.Sensor1{
+  background-color: #fff;
+  border-radius:0;
+}
+
+.Sensor2{
+  background-color: #fff;
+  border-radius:0;
+}
+
+.Sensor3{
+  background-color: #fff;
+  border-radius:0;
+}
+
+.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+ }
+
+ /* .function_btn{
+  float:left;
+  width: 100%;
+  height: 120rpx;
+ } */
