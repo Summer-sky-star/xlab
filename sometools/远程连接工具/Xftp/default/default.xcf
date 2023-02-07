@@ -1,0 +1,11 @@
+[Information]
+Signature=NetSarang Computer, Inc.
+[General]
+Version=2000
+WindowMode=0
+[KeyboardFiles]
+File0=%system%\us.xkb
+[Color]
+ColorDatabase=D:\Xftp\rgb\rgb.txt
+[Advanced]
+XresourceDatabase=D:\Xftp\Xresources
