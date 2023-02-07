@@ -1,0 +1,28 @@
+<view class="Title"> 
+  <view> 请注册 </view>
+</view>
+
+  <view class="label-list">
+        <view class="label"></view>
+        <!-- <input placeholder="请输入您的密码" value="{{school}}"  placeholder-class="place" name='school'/> -->
+  </view>
+
+  <view class="label-list">
+        <view class="label">账号：</view>
+        <input maxlength="16" bindinput="userNameInput" placeholder="请输入您的账号"  placeholder-class="place" name="userName"/>
+  </view>
+
+  <view class="label-list">
+        <view class="label">密码：</view>
+        <input maxlength="16" bindinput="passWordInput" placeholder="请输入您的密码" placeholder-class="place" name="passWord"/>
+  </view>
+
+  <view class="label-list">
+        <view class="label"></view>
+        <!-- <input placeholder="请输入您的密码" value="{{school}}"  placeholder-class="place" name='school'/> -->
+  </view>
+
+  <view>
+    <button class="btn" type="primary" bindtap="register"> 注册 </button> 
+    <button class="login" type="primary" bindtap="cancel"> 取消 </button>
+  </view>
