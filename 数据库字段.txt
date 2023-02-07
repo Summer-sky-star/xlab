@@ -1,1 +1,0 @@
-num,rtc_time,ax,ay,az,gx,gy,gz
