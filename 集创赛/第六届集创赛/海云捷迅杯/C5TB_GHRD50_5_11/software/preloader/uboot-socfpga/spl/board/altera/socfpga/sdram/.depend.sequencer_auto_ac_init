@@ -1,0 +1,2 @@
+/cygdrive/c/Users/zc/Desktop/TSOM_GHRD-gao/TSOM_GHRD/software/preloader/uboot-socfpga/spl/board/altera/socfpga/sdram/sequencer_auto_ac_init.o: \
+ sequencer_auto_ac_init.c sequencer_defines.h alt_types.h

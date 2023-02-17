@@ -1,0 +1,7 @@
+div64.o: div64.c \
+ /cygdrive/c/users/zc/desktop/tsom_ghrd/software/preloader/uboot-socfpga/include/linux/types.h \
+ /cygdrive/c/users/zc/desktop/tsom_ghrd/software/preloader/uboot-socfpga/include/linux/config.h \
+ /cygdrive/c/users/zc/desktop/tsom_ghrd/software/preloader/uboot-socfpga/include/linux/posix_types.h \
+ /cygdrive/c/users/zc/desktop/tsom_ghrd/software/preloader/uboot-socfpga/include/linux/stddef.h \
+ /cygdrive/c/Users/zc/Desktop/TSOM_GHRD/software/preloader/uboot-socfpga/include/asm/posix_types.h \
+ /cygdrive/c/Users/zc/Desktop/TSOM_GHRD/software/preloader/uboot-socfpga/include/asm/types.h
