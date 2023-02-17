@@ -1,0 +1,2 @@
+修改推理文件 ssd_detection_src/ssd_detection.cc 将三输入改成一输入，并修改250行的后处理算法
+修改了数据重排算法，已将编译文件替换Paddlelite

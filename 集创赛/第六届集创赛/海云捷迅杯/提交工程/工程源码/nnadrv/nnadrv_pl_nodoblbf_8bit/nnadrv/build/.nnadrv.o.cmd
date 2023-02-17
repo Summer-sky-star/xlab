@@ -1,0 +1,1 @@
+cmd_/home/wyc/PycharmProjects/vm/nnadrv_pl_nodoblbf_8bit/nnadrv/build/nnadrv.o := ~/PycharmProjects/vm/software/gcc-linaro-5.4.1-2017.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o /home/wyc/PycharmProjects/vm/nnadrv_pl_nodoblbf_8bit/nnadrv/build/nnadrv.o /home/wyc/PycharmProjects/vm/nnadrv_pl_nodoblbf_8bit/nnadrv/build/../src/nnadrv.o 
